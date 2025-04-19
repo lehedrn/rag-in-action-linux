@@ -37,5 +37,6 @@ pip install "unstructured[image]"
 pip install "unstructured[pptx]"
 pip install "unstructured[md]"
 pip install jq
-
+pip install pymupdf
+pip install pytesseract
 ```

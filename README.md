@@ -17,6 +17,10 @@ conda install conda-forge::python-dotenv
 
 pip install llama-index-embeddings-huggingface
 pip install llama-index-llms-deepseek
+
+pip install torch transformers python-pptx Pillow
+pip install "unstructured[all]"
+pip install huggingface_hub[hf_xet]
 ```
 
 ### langchain
@@ -28,4 +32,9 @@ pip install python-dotenv
 pip install beautifulsoup4
 pip install faiss-cpu
 pip install huggingface_hub[hf_xet]
+pip install unstructured
+pip install "unstructured[image]"
+pip install "unstructured[pptx]"
+pip install "unstructured[md]"
+
 ```

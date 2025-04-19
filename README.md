@@ -36,5 +36,6 @@ pip install unstructured
 pip install "unstructured[image]"
 pip install "unstructured[pptx]"
 pip install "unstructured[md]"
+pip install jq
 
 ```

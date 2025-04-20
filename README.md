@@ -17,10 +17,23 @@ conda install conda-forge::python-dotenv
 
 pip install llama-index-embeddings-huggingface
 pip install llama-index-llms-deepseek
+%pip install llama-index-llms-openai
+pip install llama-index-readers-database
 
 pip install torch transformers python-pptx Pillow
 pip install "unstructured[all]"
 pip install huggingface_hub[hf_xet]
+pip install camelot-py
+pip install opencv-python
+pip install pdfplumber
+pip install "unstructured[image]"
+pip install "unstructured[pptx]"
+pip install "unstructured[md]"
+pip install jq
+pip install pymupdf
+pip install pytesseract
+pip install PyMySQL
+pip install pdfplumber
 ```
 
 ### langchain
@@ -39,4 +52,9 @@ pip install "unstructured[md]"
 pip install jq
 pip install pymupdf
 pip install pytesseract
+pip install PyMySQL
+pip install camelot-py
+pip install opencv-python
+pip install pdfplumber
+
 ```

@@ -34,6 +34,7 @@ pip install pymupdf
 pip install pytesseract
 pip install PyMySQL
 pip install pdfplumber
+pip install mysqlclient
 ```
 
 ### langchain
@@ -57,4 +58,24 @@ pip install camelot-py
 pip install opencv-python
 pip install pdfplumber
 
+```
+
+## MySQL建表语句
+```sql
+CREATE TABLE game_scenes (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  scene_name VARCHAR(100) NOT NULL,
+  description TEXT,
+  difficulty_level INT,
+  boss_name VARCHAR(100),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+INSERT INTO game_scenes (scene_name, description, difficulty_level, boss_name)
+VALUES 
+('花果山', '悟空的出生地，山清水秀，仙气缭绕', 2, '六耳猕猴'),
+('水帘洞', '花果山中的洞穴，悟空的老家', 1, NULL),
+('火焰山', '炙热难耐的火山地带，充满岩浆与烈焰', 4, '牛魔王'),
+('龙宫', '东海龙王的宫殿，水下奇景', 3, '敖广'),
+('灵山', '如来佛祖居住的圣地，佛光普照', 5, '如来佛祖');
 ```

@@ -1,11 +1,14 @@
 import pymysql
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
 try:
     connection = pymysql.connect(
-        host="localhost",
-        user="newuser",
-        password="password",
-        database="example_db",
+        host=os.getenv("SQL_HOST"),
+        user=os.getenv("SQL_USER"),
+        password=os.getenv("SQL_PASSWORD"),
+        database=os.getenv("SQL_DB"),
         port=3306
     )
 

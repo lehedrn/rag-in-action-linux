@@ -1,5 +1,8 @@
+from dotenv import load_dotenv
 import os
 from llama_index.readers.database import DatabaseReader
+
+load_dotenv()
 
 reader = DatabaseReader(
     scheme=os.getenv("SQL_SCHEME"),

@@ -1,3 +1,5 @@
+# sudo apt-get install ghostscript
+# pip install ghostscript
 from datetime import datetime
 import os
 import camelot

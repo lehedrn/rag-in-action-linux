@@ -35,6 +35,7 @@ pip install pytesseract
 pip install PyMySQL
 pip install pdfplumber
 pip install mysqlclient
+pip install ghostscript
 ```
 
 ### langchain
@@ -57,6 +58,7 @@ pip install PyMySQL
 pip install camelot-py
 pip install opencv-python
 pip install pdfplumber
+pip install ghostscript
 
 ```
 

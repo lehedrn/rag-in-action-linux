@@ -36,6 +36,8 @@ pip install PyMySQL
 pip install pdfplumber
 pip install mysqlclient
 pip install ghostscript
+
+conda install conda-forge::flagembedding
 ```
 
 ### langchain
@@ -59,6 +61,8 @@ pip install camelot-py
 pip install opencv-python
 pip install pdfplumber
 pip install ghostscript
+
+conda install conda-forge::flagembedding
 
 ```
 

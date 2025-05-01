@@ -85,3 +85,7 @@ VALUES
 ('龙宫', '东海龙王的宫殿，水下奇景', 3, '敖广'),
 ('灵山', '如来佛祖居住的圣地，佛光普照', 5, '如来佛祖');
 ```
+
+## 需要下载到本地的模型
+
+[bge-visualized-base-en-v1.5](https://huggingface.co/BAAI/bge-visualized/resolve/main/Visualized_base_en_v1.5.pth?download=true), [bge-visualized-m3](https://huggingface.co/BAAI/bge-visualized/resolve/main/Visualized_m3.pth?download=true)) 

@@ -24,7 +24,7 @@ start_time = time.time()
 
 # 使用LlamaParse解析PDF
 documents = LlamaParse(
-    api_key=os.getenv("LLAMA_INDEX_API_KEY"),
+    # api_key=os.getenv("LLAMA_INDEX_API_KEY"),
     result_type="markdown"
 ).load_data(pdf_path)
 

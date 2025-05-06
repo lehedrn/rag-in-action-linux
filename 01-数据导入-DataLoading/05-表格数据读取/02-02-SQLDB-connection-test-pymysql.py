@@ -1,7 +1,6 @@
 import pymysql
 from dotenv import load_dotenv
 import os
-
 load_dotenv()
 try:
     connection = pymysql.connect(
@@ -9,7 +8,7 @@ try:
         user=os.getenv("SQL_USER"),
         password=os.getenv("SQL_PASSWORD"),
         database=os.getenv("SQL_DB"),
-        port=3306
+        port=int(os.getenv("SQL_PORT")),
     )
 
     with connection.cursor() as cursor:

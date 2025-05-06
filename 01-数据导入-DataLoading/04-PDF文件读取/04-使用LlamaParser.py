@@ -1,12 +1,10 @@
 # 需要LLAMA_CLOUD_API_KEY
-import os
 from dotenv import load_dotenv
-import openai
 load_dotenv()   
 # LlamaParse PDF reader for PDF Parsing
 from llama_parse import LlamaParse
 documents = LlamaParse(
-  api_key=os.getenv("LLAMA_INDEX_API_KEY"),
+  # api_key=os.getenv("LLAMA_INDEX_API_KEY"),
   result_type="markdown").load_data(
     "90-文档-Data/黑悟空/黑神话悟空.pdf"
 )

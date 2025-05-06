@@ -90,6 +90,10 @@ llm = ChatDeepSeek(
     api_key=os.getenv("DEEPSEEK_API_KEY")
 )
 # 调用llm的invoke方法，根据提示模板填充问题和上下文，生成回答
+print(f"question: {question}")
+print(f"context: {docs_content}")
+print("invoke llm ...")
 answer = llm.invoke(prompt.format(question=question, context=docs_content))
 # 打印生成的回答
+print("answer:")
 print(answer)

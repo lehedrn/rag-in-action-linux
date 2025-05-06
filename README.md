@@ -23,7 +23,7 @@ pip install llama-index-llms-deepseek
 ```base
 conda create -n rag-langchain-linux python=3.10
 
-pip install langchain langchain-community langchain-huggingface langgraph langchain-unstructured langchain-deepseek langgraph langsmith
+pip install langchain langchain-community langchain-huggingface langgraph langchain-unstructured langchain-deepseek langsmith
 pip install python-dotenv
 pip install beautifulsoup4
 pip install faiss-cpu

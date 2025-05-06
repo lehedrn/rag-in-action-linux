@@ -89,3 +89,17 @@ VALUES
 ## 需要下载到本地的模型
 
 [bge-visualized-base-en-v1.5](https://huggingface.co/BAAI/bge-visualized/resolve/main/Visualized_base_en_v1.5.pth?download=true), [bge-visualized-m3](https://huggingface.co/BAAI/bge-visualized/resolve/main/Visualized_m3.pth?download=true)) 
+
+## 需要下载FlagEmbedding
+
+在根目录， 
+```bash
+git clone https://github.com/FlagOpen/FlagEmbedding.git
+
+cd FlagEmbedding
+
+pip install -U FlagEmbedding
+
+cd FlagEmbedding/research/visual_bge
+pip install .
+```

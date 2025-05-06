@@ -62,6 +62,8 @@ pip install opencv-python
 pip install pdfplumber
 pip install ghostscript
 pip install docx2txt
+pip install pymilvus
+pip install "pymilvus[model]"
 
 
 ```

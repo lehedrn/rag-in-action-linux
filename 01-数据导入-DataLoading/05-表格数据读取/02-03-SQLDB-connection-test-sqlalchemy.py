@@ -3,7 +3,7 @@ from sqlalchemy import create_engine, text
 import pandas as pd
 
 # 确保使用 pymysql 作为驱动
-sql_url = f"mysql+pymysql://{os.getenv('SQL_USER')}:{os.getenv('SQL_PASSWORD')}@{os.getenv('SQL_HOST')}:{os.getenv('SQL_PORT')}/{os.getenv('SQL_DB')}"
+sql_url = f"{os.getenv('SQL_SCHEME')}://{os.getenv('SQL_USER')}:{os.getenv('SQL_PASSWORD')}@{os.getenv('SQL_HOST')}:{os.getenv('SQL_PORT')}/{os.getenv('SQL_DB')}"
 print(sql_url)
 # engine = create_engine("mysql+pymysql://newuser:password@localhost:3306/example_db")
 engine = create_engine(sql_url)

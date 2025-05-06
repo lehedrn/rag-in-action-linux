@@ -1,12 +1,13 @@
 import pymysql
+import os
 
 try:
     connection = pymysql.connect(
-        host="localhost",
-        user="newuser",
-        password="password",
-        database="example_db",
-        port=3306
+        host=os.getenv("SQL_HOST"),
+        user=os.getenv("SQL_USER"),
+        password=os.getenv("SQL_PASSWORD"),
+        database=os.getenv("SQL_DB"),
+        port=int(os.getenv("SQL_PORT")),
     )
 
     with connection.cursor() as cursor:

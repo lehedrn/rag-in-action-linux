@@ -9,7 +9,7 @@ import numpy as np
 
 # 初始化编码器
 model_name = "BAAI/bge-base-en-v1.5"
-model_path = "./Visualized_base_en_v1.5.pth"
+model_path = "models/Visualized_base_en_v1.5.pth"
 model = Visualized_BGE(model_name_bge=model_name, model_weight=model_path)
 model.eval()
 

@@ -61,8 +61,8 @@ pip install camelot-py
 pip install opencv-python
 pip install pdfplumber
 pip install ghostscript
+pip install docx2txt
 
-conda install conda-forge::flagembedding
 
 ```
 

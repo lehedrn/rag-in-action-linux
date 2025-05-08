@@ -36,7 +36,7 @@ pip install PyMySQL
 pip install pdfplumber
 pip install mysqlclient
 pip install ghostscript
-
+pip install neo4j
 conda install conda-forge::flagembedding
 ```
 
@@ -64,8 +64,10 @@ pip install ghostscript
 pip install docx2txt
 pip install pymilvus
 pip install "pymilvus[model]"
-
-
+pip install neo4j
+pip install youtube-transcript-api
+pip install pytube
+pip install langchain-chroma
 ```
 
 ## MySQL建表语句

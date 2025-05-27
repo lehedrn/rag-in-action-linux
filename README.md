@@ -19,6 +19,7 @@ pip install llama-index-embeddings-huggingface
 pip install llama-index-llms-deepseek
 %pip install llama-index-llms-openai
 pip install llama-index-readers-database
+pip install llama-index-experimental
 
 pip install torch transformers python-pptx Pillow
 pip install "unstructured[all]"

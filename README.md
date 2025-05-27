@@ -20,6 +20,7 @@ pip install llama-index-llms-deepseek
 %pip install llama-index-llms-openai
 pip install llama-index-readers-database
 pip install llama-index-experimental
+pip install llama-index-postprocessor-flag-embedding-reranker
 
 pip install torch transformers python-pptx Pillow
 pip install "unstructured[all]"
@@ -39,6 +40,7 @@ pip install mysqlclient
 pip install ghostscript
 pip install neo4j
 conda install conda-forge::flagembedding
+pip install rank_bm25
 ```
 
 ### langchain
@@ -69,6 +71,7 @@ pip install neo4j
 pip install youtube-transcript-api
 pip install pytube
 pip install langchain-chroma
+pip install rank_bm25
 ```
 
 ## MySQL建表语句

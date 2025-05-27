@@ -47,7 +47,7 @@ pip install rank_bm25
 ```base
 conda create -n rag-langchain-linux python=3.10
 
-pip install langchain langchain-community langchain-huggingface langgraph langchain-unstructured langchain-deepseek langsmith
+pip install langchain langchain-community langchain-huggingface langgraph langchain-unstructured langchain-deepseek langsmith langchain-cohere
 pip install python-dotenv
 pip install beautifulsoup4
 pip install faiss-cpu

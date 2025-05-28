@@ -73,6 +73,8 @@ pip install pytube
 pip install langchain-chroma
 pip install rank_bm25
 pip install llmlingua
+pip install datasets
+
 ```
 
 ## MySQL建表语句

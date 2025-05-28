@@ -74,6 +74,10 @@ pip install langchain-chroma
 pip install rank_bm25
 pip install llmlingua
 pip install datasets
+pip install "ragas[all]"
+pip install "trulens[all]"
+
+pip install deepeval
 
 ```
 

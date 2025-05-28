@@ -72,6 +72,7 @@ pip install youtube-transcript-api
 pip install pytube
 pip install langchain-chroma
 pip install rank_bm25
+pip install llmlingua
 ```
 
 ## MySQL建表语句

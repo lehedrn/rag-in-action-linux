@@ -41,6 +41,7 @@ pip install ghostscript
 pip install neo4j
 conda install conda-forge::flagembedding
 pip install rank_bm25
+pip install llama-index-retrievers-bm25
 ```
 
 ### langchain
